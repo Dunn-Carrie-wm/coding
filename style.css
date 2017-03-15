@@ -1,0 +1,38 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+p {
+    float: left;
+}
+h1{
+    float: left;
+    margin-left: 15px;
+}
+img{
+    height: 70px;
+    width: 90px;
+    float: left;
+}
+p a {
+    display: block;
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+p :hover {
+    background-color: #b5b7b7;
+}
+.form label {
+    float: left;
+    display: inline-block;
+}
